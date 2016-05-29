@@ -1,0 +1,8 @@
+{
+  "moodle-theme_synergy_bootstrap-bootstrap": {
+    "requires": [
+        "node",
+        "selector-css3"
+    ]
+  }
+}
