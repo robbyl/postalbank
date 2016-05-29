@@ -120,19 +120,17 @@ div#totaramenu ul li li a:hover {
 /* secondary nav - not selected child of selected parent */
 div#totaramenu ul li.selected li a {
     color: #888;
-    background: #FFF;
-    border: none;
-    border-bottom: 1px solid #DDD;
+    background: #FFF !important;
 }
 /* secondary nav - not selected child of selected parent - hover */
 div#totaramenu ul li.selected li a:hover {
-    color: #333;
-    background: #F9F9F9;
+    color: #009247;
+    background: #474747 !important;
 }
 /* secondary nav - selected child of selected parent */
 div#totaramenu ul li.selected li.selected a {
-    color: #333;
-    background: #FFF;
+    color: #d0d0d0;
+    background: #000 !important;
     cursor: default;
 }
 /* secondary nav - selected child of selected parent - hover */

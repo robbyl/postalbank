@@ -2058,7 +2058,17 @@ div#totaramenu {background: #009247; width: auto; float: right; padding-left: 10
 
 p.copy {text-align: left; margin-top: 30px; font-family: "futura-pt",sans-serif;}
 
-div#totaramenu ul li.selected a, div#totaramenu ul li a {background: none; border: none; color: #fff; font-weight: normal; text-transform: none; text-transform: uppercase; font-family: "futura-pt",sans-serif; color: #eb900c;}
+div#totaramenu ul li.selected a, div#totaramenu ul li a {
+    background: none;
+    border: none;
+    color: #fff;
+    font-weight: normal;
+    text-transform: none;
+    text-transform: uppercase;
+    font-family: "futura-pt",sans-serif;
+    color: #eb900c;
+}
+
 div#totaramenu ul li a:hover {color: #eb900c; text-decoration: underline;}
 div#totaramenu ul li a {padding: 8px 20px 7px 30px;}
 
@@ -2151,8 +2161,17 @@ button, input.form-submit, input[type="button"], input[type="submit"], input[typ
 
 input[type=submit]:hover, #notice .singlebutton+.singlebutton input:hover, .submit.buttons input[name="cancel"]:hover, input.form-submit:hover, input#id_submitbutton:hover, input#id_submitbutton2:hover, .path-admin .buttons input[type="submit"]:hover, td.submit input:hover {background: #000;}
 
-div#totaramenu ul li li a {background: #00994a; color: #fff;}
-div#totaramenu ul li li a:hover {background: #df8807; color: #fff;}
+div#totaramenu ul li li a {
+    background: #515151; 
+    color: #d0d0d0;
+    border: 0px !important;
+}
+
+div#totaramenu ul li li a:hover {
+    background: #474747;
+    color: #009247;
+    text-decoration: none;
+}
 
 .block .calendar_filters li span img {
     padding: 4px 2px 2px 2px;
@@ -2197,14 +2216,14 @@ div#page-content div#inst13 .generaltable {
 }
 
 div#totaramenu ul li.selected li a {
-    color: #ffffff;
-    background: #ED9007;
+    color: #d0d0d0;
+    background: #515151 !important;
 }
 
-div#totaramenu ul li.selected li a:hover {
+/*div#totaramenu ul li.selected li a:hover {
     color: #ffffff;
-    background: #DF8807;
-}
+    background: #474747;
+}*/
 
 .groupmanagementtable #existingcell, .groupmanagementtable #potentialcell {
     width: 10%;
