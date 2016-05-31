@@ -2049,14 +2049,14 @@ div.ui-dialog .ui-dialog-buttonpane button{float:none;}
 
 #page-admin-user-user_bulk .generaltable .header.c0 img {display: none;}
 
-div#totaramenu {background: #009247; width: auto; float: right; padding-left: 10px;}
+div#totaramenu {background: none; width: auto; float: right; padding-left: 10px;}
 
 #footerbox1, #footerbox2 {width: 49%; float: left; background: #ee8e0c; margin-bottom: 30px; padding: 10px;	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;}
 #footerbox1 {margin-right: 2%;}
 
-p.copy {text-align: left; margin-top: 30px; font-family: "futura-pt",sans-serif;}
+p.copy {text-align: center; margin-top: 30px; font-family: "futura-pt",sans-serif;}
 
 div#totaramenu ul li.selected a, div#totaramenu ul li a {
     background: none;
@@ -2066,7 +2066,7 @@ div#totaramenu ul li.selected a, div#totaramenu ul li a {
     text-transform: none;
     text-transform: uppercase;
     font-family: "futura-pt",sans-serif;
-    color: #eb900c;
+    color: #000;
 }
 
 div#totaramenu ul li a:hover {color: #eb900c; text-decoration: underline;}

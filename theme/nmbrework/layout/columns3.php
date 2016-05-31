@@ -130,7 +130,7 @@ echo $OUTPUT->doctype() ?>
             <a href="#" class="footerbtn">View</a>
         </div>
         
-        <p class="copy">© National Microfinance Bank 2014</p>
+        <p class="copy">© Tanzania Postal Bank 2016</p>
     </footer>
 
     <?php echo $OUTPUT->standard_end_of_body_html() ?>

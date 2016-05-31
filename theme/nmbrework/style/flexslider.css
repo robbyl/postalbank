@@ -36,10 +36,10 @@
 
 /* FlexSlider Necessary Styles
 *********************************/
-.flexslider {margin: 0; padding: 0; background: #1d3c87;}
+.flexslider {margin: 0; padding: 0; background: #555 !important;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden; position: relative;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {width: 60%; float: right;}
-.flexslider .slides .coursesintro {width: 40%; float: left; height: 100%; background: #1d3c87; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+.flexslider .slides .coursesintro {width: 40%; float: left; height: 100%; background: #555; -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 	box-sizing: border-box;         /* Opera/IE 8+ */
 	padding: 10px 10px 10px 55px;}
@@ -102,7 +102,7 @@ html[xmlns] .slides {display: block;}
 	bottom: 0;
 	right: 0;
 	padding: 10px 100px 10px 40px;
-	background: #ed9007;
+	background: rgba(0,0,0, 0.3);
 	width: 60%;
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
