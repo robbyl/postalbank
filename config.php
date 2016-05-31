@@ -18,7 +18,7 @@ $CFG->dboptions = array (
 );
 
 $CFG->wwwroot   = 'http://localhost/totara';
-$CFG->dataroot  = 'D:\\xampp\\sitedata';
+$CFG->dataroot  = 'C:\\xampp\\sitedata';
 $CFG->admin     = 'admin';
 
 $CFG->directorypermissions = 0777;
