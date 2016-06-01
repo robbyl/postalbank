@@ -1937,7 +1937,7 @@ div.filemanager {
 .comment-area textarea{width:93%;}
 
 .text_to_html{width: auto;
-word-wrap: break-word;}
+              word-wrap: break-word;}
 
 #page-report-outline-user .section{border:none;}
 
@@ -2023,10 +2023,10 @@ table#categoryquestions {
 .userlist table.controls td.right {padding: .5em;}
 
 @-moz-document url-prefix() { 
-  fieldset {
-     display: table-cell !important;
-     width: 100%;
-  }
+    fieldset {
+        display: table-cell !important;
+        width: 100%;
+    }
 }
 
 
@@ -2049,11 +2049,14 @@ div.ui-dialog .ui-dialog-buttonpane button{float:none;}
 
 #page-admin-user-user_bulk .generaltable .header.c0 img {display: none;}
 
-div#totaramenu {background: none; width: auto; float: right; padding-left: 10px;}
+div#totaramenu {
+    background: none; width: auto; float: right; padding-left: 10px;
+    margin-top: 10px;
+}
 
 #footerbox1, #footerbox2 {width: 49%; float: left; background: #ee8e0c; margin-bottom: 30px; padding: 10px;	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
-	box-sizing: border-box;}
+                          -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+                          box-sizing: border-box;}
 #footerbox1 {margin-right: 2%;}
 
 p.copy {text-align: center; margin-top: 30px; font-family: "futura-pt",sans-serif;}
@@ -2069,13 +2072,18 @@ div#totaramenu ul li.selected a, div#totaramenu ul li a {
     color: #000;
 }
 
-div#totaramenu ul li a:hover {color: #eb900c; text-decoration: underline;}
+div#totaramenu ul li a:hover {
+    color: #00994a;
+}
 div#totaramenu ul li a {padding: 8px 20px 7px 30px;}
 
 div#totaramenu ul li.menu-home > a {background: url([[pix:theme|menu-home]]) 3px center no-repeat;}
-div#totaramenu ul li.menu-mylearning > a {background: url([[pix:theme|menu-learning]]) 7px center no-repeat;}
-div#totaramenu ul li.menu-appraisals > a {background: url([[pix:theme|menu-appraisals]]) 7px center no-repeat;}
+div#totaramenu ul li.menu-mylearning > a {
+    background: url([[pix:theme|menu-learning]]) 7px center no-repeat;
+}
+div#totaramenu ul li.menu-appraisal > a {background: url([[pix:theme|menu-appraisals]]) 7px center no-repeat;}
 div#totaramenu ul li.menu-myteam > a {background: url([[pix:theme|menu-myteam]]) 7px center no-repeat;}
+div#totaramenu ul li.menu-findlearning > a {background: url([[pix:theme|findlearning]]) 7px center no-repeat;}
 div#totaramenu ul li.menu-findcourses > a {background: url([[pix:theme|menu-courses]]) 7px center no-repeat;}
 div#totaramenu ul li.menu-calendar > a {background: url([[pix:theme|menu-calendar]]) 7px center no-repeat;}
 
@@ -2109,52 +2117,52 @@ Top search
 **********************************/
 
 #top-search {
-text-align: right;
-clear:right;
-background: url([[pix:theme|search]]) top right no-repeat;
-width: 209px;
-height: 29px;
-margin: 10px 15px 6px;
-padding: 0px 0 6px;
-position: relative;
-float: right;
-font-family: "futura-pt",sans-serif;
+    text-align: right;
+    clear:right;
+    background: url([[pix:theme|search]]) top right no-repeat;
+    width: 209px;
+    height: 29px;
+    margin: 10px 15px 6px;
+    padding: 0px 0 6px;
+    position: relative;
+    float: right;
+    font-family: "futura-pt",sans-serif;
 }
 
 #top-search form {
-margin: 0;
-padding: 0;
-text-align: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
 }
 
 #top-search input[type=text] {
-background: none;
-color: #333;
-border: none;
-font-weight: normal;
-margin: 0;
-padding: 6px 0 7px 10px;
-font-size: 1em;
-width: 161px;
-outline: none;
-font-family: "futura-pt",sans-serif;
+    background: none;
+    color: #333;
+    border: none;
+    font-weight: normal;
+    margin: 0;
+    padding: 6px 0 7px 10px;
+    font-size: 1em;
+    width: 161px;
+    outline: none;
+    font-family: "futura-pt",sans-serif;
 }
 
 #top-search input[type=text]:focus {outline: none; box-shadow: none;}
 
 #top-search input[type=submit] {
-background: none;
-color: #fff;
-padding: 0;
-border: none;
-font-weight: normal;
-margin: 0;
-cursor: pointer;
-text-indent: -9999px;
-font-size: 0;
-line-height: 0;
-width: 34px;
-height: 32px;
+    background: none;
+    color: #fff;
+    padding: 0;
+    border: none;
+    font-weight: normal;
+    margin: 0;
+    cursor: pointer;
+    text-indent: -9999px;
+    font-size: 0;
+    line-height: 0;
+    width: 34px;
+    height: 32px;
 }
 
 button, input.form-submit, input[type="button"], input[type="submit"], input[type="reset"] {border-radius: 0;}
@@ -2169,7 +2177,7 @@ div#totaramenu ul li li a {
 
 div#totaramenu ul li li a:hover {
     background: #474747;
-    color: #009247;
+    color: #00cc63;
     text-decoration: none;
 }
 
@@ -2194,11 +2202,11 @@ div#layout-doc tr.r0 #input-message {
 }
 
 .form-item .form-label, .mform .fitem div.fitemtitle, .userprofile dl.list dt, .form-horizontal .control-label {
-width: 95px;
+    width: 95px;
 }
 
 #region-main h2#instance-9-header {
-color: #ffffff;
+    color: #ffffff;
 }
 
 section#region-main form#tempform {
@@ -2316,7 +2324,7 @@ section#region-main .box.generalbox.commentsreport {
 section#region-main .paging {
     overflow-y: scroll;
 }
-  
+
 div#frontpage-course-list div.courses div.coursebox div.info h3.name a {
     background:url([[pix:theme|course]]) top left no-repeat !important;
     padding-left:55px;
@@ -2337,12 +2345,15 @@ div.courses div.coursebox div.content div.summary div.no-overflow a.course-launc
 }
 
 body#page-login-index section#region-main div.loginbox div.loginpanel {
-    float: right;
-    height: 240px;
+    float: none;
+    width: 400px;
+    /*height: 240px;*/
     margin-top: 14px;
-    background:url([[pix:theme|img]]) top left no-repeat;
-    background-size: 100% 21%;
+    /*background:url([[pix:theme|img]]) top left no-repeat;*/
+    /*background-size: 100% 21%;*/
     margin-bottom:10px;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
 
 div.loginbox div.signuppanel .login-image-panel {
@@ -2404,9 +2415,12 @@ body#page-login-index section#region-main div.loginbox div.loginpanel div.subcon
 
 body#page-login-index section#region-main div.loginbox div.loginpanel div.subcontent{
     text-align:left;
-    background: #ebebeb;
-    margin-top:50px;
-    height: 221px;
+    margin-top: 50px;
+    height: auto;
+    background:url([[pix:theme|img]]) top left no-repeat #ebebeb;
+}
+.loginsub form {
+    margin-top: 80px !important;
 }
 
 body#page-login-index section#region-main div.loginbox div.loginpanel .desc {
@@ -2427,7 +2441,7 @@ body#page-login-index div#page div.flexslider h1 {
     padding:0;
     margin:0;
 }
-   
+
 body#page-login-index div#page div.flexslider p{
     font-size:1em;
     color:#ffffff;

@@ -63,21 +63,6 @@ if (empty($CFG->authloginviaemail)) {
             ?>
         </div>
       </div>
-
-<?php if ($CFG->guestloginbutton and !isguestuser()) {  ?>
-      <div class="subcontent guestsub">
-        <div class="desc">
-          <?php print_string("someallowguest") ?>
-        </div>
-        <form action="index.php" method="post" id="guestlogin">
-          <div class="guestform">
-            <input type="hidden" name="username" value="guest" />
-            <input type="hidden" name="password" value="guest" />
-            <input type="submit" value="<?php print_string("loginguest") ?>" />
-          </div>
-        </form>
-      </div>
-<?php } ?>
      </div>
 <?php if ($show_instructions) { ?>
     <div class="signuppanel">

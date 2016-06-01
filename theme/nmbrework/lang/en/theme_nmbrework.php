@@ -25,7 +25,7 @@
 $string['choosereadme'] = '
 <div class="clearfix">
 <div class="well">
-<h2>National Microfinance Bank</h2>
+<h2>Tanzania Postal Bank</h2>
 <p><img class=img-polaroid src="nmbrework/pix/screenshot.png" /></p>
 </div>
 <div class="well">
@@ -42,7 +42,7 @@ Website: <a href="http://www.synergy-learning.com">www.synergy-learning.com</a>
 </p>
 </div></div>';
 
-$string['pluginname'] = 'National Microfinance Bank';
+$string['pluginname'] = 'Tanzania Postal Bank';
 $string['searchcourses'] = 'Search Courses';
 $string['region-side-post'] = 'Right';
 $string['region-side-pre'] = 'Left';

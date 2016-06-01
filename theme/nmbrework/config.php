@@ -30,7 +30,7 @@
 
 $THEME->name = 'nmbrework';
 $THEME->parents = array('synergy_base','bootstrapbase');
-$THEME->sheets = array('totara_jquery_ui_dialog', 'totara', 'navigation', 'style', 'media', 'flexslider' );
+$THEME->sheets = array('totara_jquery_ui_dialog', 'totara', 'navigation', 'style', 'media', 'flexslider', 'font-awesome.min');
 $THEME->rendererfactory = 'theme_overridden_renderer_factory';
 
 
