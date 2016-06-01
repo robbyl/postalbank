@@ -2344,6 +2344,10 @@ div.courses div.coursebox div.content div.summary div.no-overflow a.course-launc
     background-size:22px;
 }
 
+.loginbox .loginpanel .desc {
+    display: none !important;
+}
+
 body#page-login-index section#region-main div.loginbox div.loginpanel {
     float: none;
     width: 400px;
