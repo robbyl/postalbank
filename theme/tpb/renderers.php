@@ -2,7 +2,7 @@
 
 include_once($CFG->dirroot.'/calendar/renderer.php');
 include_once($CFG->dirroot.'/theme/synergy_bootstrap/renderers/core_renderer.php');
-class theme_nmbrework_core_calendar_renderer extends core_calendar_renderer {
+class theme_tpb_core_calendar_renderer extends core_calendar_renderer {
 
 	 /**
      * Adds a pretent calendar block
@@ -22,7 +22,7 @@ class theme_nmbrework_core_calendar_renderer extends core_calendar_renderer {
 
 }
 
-class theme_nmbrework_core_renderer extends theme_synergy_bootstrap_core_renderer {
+class theme_tpb_core_renderer extends theme_synergy_bootstrap_core_renderer {
 
 protected function render_custom_menu(custom_menu $menu) {
         global $CFG;

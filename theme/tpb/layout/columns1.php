@@ -20,7 +20,7 @@
  * DO NOT MODIFY THIS THEME!
  * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
  *
- * @package   theme_nmbrework
+ * @package   theme_tpb
  * @copyright 2013 Synergy Learning
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
@@ -98,7 +98,7 @@ echo $OUTPUT->doctype() ?>
             <?php echo $OUTPUT->navbar(); ?>
             <div id="top-search">
                         <form action="<?php echo $CFG->wwwroot ?>/course/search.php" method="get">
-                            <input type="text" size="12" name="search" alt="Search Courses" value="<?php echo get_string('searchcourses', 'theme_nmbrework'); ?>" onFocus="this.value = this.value=='<?php echo get_string('searchcourses', 'theme_nmbrework'); ?>'?'':this.value;" onBlur="this.value = this.value==''?'<?php echo get_string('searchcourses', 'theme_nmbrework'); ?>':this.value;" />
+                            <input type="text" size="12" name="search" alt="Search Courses" value="<?php echo get_string('searchcourses', 'theme_tpb'); ?>" onFocus="this.value = this.value=='<?php echo get_string('searchcourses', 'theme_tpb'); ?>'?'':this.value;" onBlur="this.value = this.value==''?'<?php echo get_string('searchcourses', 'theme_tpb'); ?>':this.value;" />
                             <input type="submit" value="Go" title="Go" />
                         </form>
                     </div>
