@@ -126,8 +126,8 @@ echo $OUTPUT->doctype()
                         </div>
                         <img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/slider.png' ?>" />
                         <div class="flex-text">
-                            <h2>Hivi ni jinsi ilivyo</h2>
-                            <h4>haraka kupata huduma za kibenki za NMB. Jihudumie!</h4>
+                            <h2>Learn better. Train faster</h2>
+                            <!--<h4>haraka kupata huduma za kibenki za NMB. Jihudumie!</h4>-->
                         </div>
 
                     </li>
