@@ -2345,7 +2345,7 @@ div.courses div.coursebox div.content div.summary div.no-overflow a.course-launc
 }
 
 body#page-login-index section#region-main div.loginbox div.loginpanel {
-    float: none;
+    float: right;
     width: 400px;
     /*height: 240px;*/
     margin-top: 14px;

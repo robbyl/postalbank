@@ -33,7 +33,7 @@ echo $OUTPUT->doctype()
     <head>
         <title><?php echo $OUTPUT->page_title(); ?></title>
         <link rel="shortcut icon" href="<?php echo $OUTPUT->favicon(); ?>" />
-<?php echo $OUTPUT->standard_head_html() ?>
+        <?php echo $OUTPUT->standard_head_html() ?>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <script type="text/javascript" src="//use.typekit.net/jke4zbf.js"></script>
@@ -45,18 +45,18 @@ echo $OUTPUT->doctype()
         <script src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/javascript/jquery.flexslider-min.js' ?>"></script>
 
         <script type="text/javascript">
-                $(document).ready(function () {
-                    $('.flexslider').flexslider({
-                        animation: "slide"
-                    });
+            $(document).ready(function () {
+                $('.flexslider').flexslider({
+                    animation: "slide"
                 });
+            });
         </script>
 
     </head>
 
     <body <?php echo $OUTPUT->body_attributes('three-column'); ?>>
 
-<?php echo $OUTPUT->standard_top_of_body_html() ?>
+        <?php echo $OUTPUT->standard_top_of_body_html() ?>
 
         <header role="banner" class="navbar navbar-fixed-top">
             <nav role="navigation" class="navbar-inner">
@@ -69,7 +69,7 @@ echo $OUTPUT->doctype()
                             <?php } else { ?>
                                 <div id="totaramenu"><?php echo $totaramenu; ?></div>
                             <?php } ?>
-<?php } ?>
+                        <?php } ?>
                     </div>
 
                     <a class="brand" href="<?php echo $CFG->wwwroot; ?>"><img src="<?php echo $CFG->wwwroot . '/theme/' . current_theme() . '/pix/logo.png' ?>" alt="<?php echo $PAGE->heading ?>" /></a>
@@ -89,7 +89,7 @@ echo $OUTPUT->doctype()
                                 <li class="navbar-text"><?php echo $OUTPUT->login_info() ?></li>
                             <?php } else { ?>
                                 <li class="navbar-text"><?php echo $OUTPUT->login_info() ?><?php echo $OUTPUT->user_picture($USER, array('size' => 80)); ?></li>
-<?php } ?>
+                            <?php } ?>
                         </ul>
 
                     </div>
@@ -100,7 +100,7 @@ echo $OUTPUT->doctype()
         <header id="page-header" class="clearfix">
             <div id="page-navbar">
                 <nav class="breadcrumb-button"><?php echo $OUTPUT->page_heading_button(); ?></nav>
-<?php echo $OUTPUT->navbar(); ?>
+                <?php echo $OUTPUT->navbar(); ?>
                 <div id="top-search">
                     <form action="<?php echo $CFG->wwwroot ?>/course/search.php" method="get">
                         <input type="text" size="12" name="search" alt="Search Courses" value="<?php echo get_string('searchcourses', 'theme_tpb'); ?>" onFocus="this.value = this.value == '<?php echo get_string('searchcourses', 'theme_tpb'); ?>' ? '' : this.value;" onBlur="this.value = this.value == '' ? '<?php echo get_string('searchcourses', 'theme_tpb'); ?>' : this.value;" />
@@ -109,7 +109,7 @@ echo $OUTPUT->doctype()
                 </div>
             </div>
             <div id="course-header">
-<?php echo $OUTPUT->course_header(); ?>
+                <?php echo $OUTPUT->course_header(); ?>
             </div>
 
         </header>
@@ -158,10 +158,10 @@ echo $OUTPUT->doctype()
                             echo $OUTPUT->course_content_footer();
                             ?>
                         </section>
-<?php echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column'); ?>
+                        <?php echo $OUTPUT->blocks('side-pre', 'span4 desktop-first-column'); ?>
                     </div>
                 </div>
-<?php echo $OUTPUT->blocks('side-post', 'span3'); ?>
+                <?php echo $OUTPUT->blocks('side-post', 'span3'); ?>
             </div>
         </div>
 
@@ -181,7 +181,7 @@ echo $OUTPUT->doctype()
             <p class="copy">© Tanzania Postal Bank 2016</p>
         </footer>
 
-<?php echo $OUTPUT->standard_end_of_body_html() ?>
+        <?php echo $OUTPUT->standard_end_of_body_html() ?>
 
 
     </body>
