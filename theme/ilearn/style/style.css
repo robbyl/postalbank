@@ -21,7 +21,7 @@ body {
 #page-header {background: #fff;}
 
 #page-header.navbar {
-    background:#009247;
+    background:#0465ce;
     color: #fff;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 #page-footer {
-    background:#009247;
+    background:#0465ce;
     color: #fff;
     clear: both;
     max-width: 1024px;
@@ -79,7 +79,7 @@ body.two-column #region-bs-main-and-pre.span9 {
 }
 
 .navbar-inner .container-fluid img {
-    max-width: 140px;
+    max-width: 230px;
     /*max-height: 90px;*/
 }
 
@@ -134,7 +134,7 @@ body.two-column #region-bs-main-and-pre.span9 {
 }
 
 .navbar .arrow {
-    color:#00994a;
+    color:#e85301;
 }
 
 .navbar .nav {
@@ -164,7 +164,7 @@ body.two-column #region-bs-main-and-pre.span9 {
     margin:0;
     padding:3px 5px;
     border:none;
-    background:#009247;
+    background:#0465ce;
     color:#fff;
     cursor:pointer;
 }
@@ -202,7 +202,7 @@ body.two-column #region-bs-main-and-pre.span9 {
 }
 
 .logininfo a {
-    color:#00994a;
+    color:#e85301;
     text-decoration:underline;
 }
 
@@ -219,13 +219,13 @@ body.two-column #region-bs-main-and-pre.span9 {
 }
 
 a {
-    color:#00994a;
+    color:#e85301;
     text-decoration:none;
 }
 
 a.autolink {
     background:#fff;
-    color:#00994a;
+    color:#e85301;
 }
 
 a:hover {
@@ -247,7 +247,7 @@ img {
 
 .homelink a {
     border:1px solid #ddd;
-    color:#00994a;
+    color:#e85301;
     text-decoration:none;
 }
 
@@ -424,7 +424,7 @@ input.form-submit, input#id_submitbutton, input#id_submitbutton2, .path-admin .b
     margin:3px 0 10px 5px;
     padding:3px 5px;
     border:none;
-    background:#009247;
+    background:#0465ce;
     color:#fff;
     cursor:pointer;
 }
@@ -441,7 +441,7 @@ input[type=button] {
     margin:0 5px;
     padding:3px 5px;
     border:none;
-    background:#009247;
+    background:#0465ce;
     color:#fff;
     cursor:pointer;
 }
@@ -470,7 +470,7 @@ button {
     margin:0 5px;
     padding:3px 5px;
     border:none;
-    background:#009247;
+    background:#0465ce;
     color:#fff;
     cursor:pointer;
 }
@@ -565,11 +565,11 @@ button, input.form-submit, input[type="button"], input[type="submit"], input[typ
 }
 
 .block-region .block .header {
-    background:#009247;
+    background:#0465ce;
 }
 
 footer .block-region .block .header {
-    background:#009247;
+    background:#0465ce;
 }
 
 .block .header .block_action {
@@ -600,7 +600,7 @@ footer .block-region .block .header h2  {
 footer .block-region .commands {
     border: none;
     border-bottom:1px solid #ddd;
-    background:#009247;
+    background:#0465ce;
 }
 
 .block-region .block .content .commands {
@@ -688,7 +688,7 @@ footer .block-region .block .content {
 
 #dock {
     border-color:#fff;
-    background:#00994a;
+    background:#e85301;
 }
 
 #dock .dockedtitle {
@@ -740,7 +740,7 @@ footer .block-region .block .content {
 }
 
 #dockeditempanel .dockeditempanel_content a:hover {
-    color:#00994a;
+    color:#e85301;
 }
 
 .block_docked form {
@@ -826,7 +826,7 @@ footer .block-region .block .content {
 
 .course-content ul.topics li.section .left {
     padding:10px 0 0;
-    color:#00994a;
+    color:#e85301;
     font-weight:700;
     font-size:1.2em;
 }
@@ -837,7 +837,7 @@ footer .block-region .block .content {
 
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus, .dropdown-submenu:hover>a, .dropdown-submenu:focus>a {
     color: #fff;
-    background: #00994a;
+    background: #e85301;
 }
 
 .breadcrumb {
@@ -987,7 +987,7 @@ table.mceLayout, table.mceLayout table, table.calendartable, table.forumheaderli
 .path-course-view .completionprogress {
     float:right;
     padding-top:5px;
-    color:#00994a;
+    color:#e85301;
 }
 
 ul.progress-actions li {
@@ -1029,7 +1029,7 @@ ul.progress-actions li {
 }
 
 .mform fieldset legend {
-    color:#00994a;
+    color:#e85301;
     font-size:1.3em;
 }
 
@@ -1040,11 +1040,11 @@ ul.progress-actions li {
 }
 
 .mform .error,.mform .required {
-    color:#00994a;
+    color:#e85301;
 }
 
 .mform .fdescription.required {
-    color:#00994a;
+    color:#e85301;
 }
 
 .filemanager-container {
@@ -1103,16 +1103,16 @@ ul.progress-actions li {
 
 .tabtree .tabrow0 a:hover {
     padding:4px 10px;
-    color:#00994a;
+    color:#e85301;
 }
 
 .tabtree .tabrow0 .here a {
-    color:#00994a;
+    color:#e85301;
 }
 
 .tabtree .tabrow0 .here a:hover {
     background:#fff;
-    color:#00994a;
+    color:#e85301;
 }
 
 .tabtree .tabrow0 a span,.tabtree .tabrow0 .here a span,.tabtree .tabrow0 a:hover span,.tabtree .tabrow0 .here a:hover span {
@@ -1145,7 +1145,7 @@ ul.progress-actions li {
 .tabtree .here a.nolink,.tabtree .here ul .here a.nolink,.tabtree .here a.nolink:hover,.tabtree .here ul .here a.nolink:hover {
     margin:0;
     padding:4px 10px;
-    color:#00994a;
+    color:#e85301;
 }
 
 .tabtree .tabrow0 .tabrow1 {
@@ -1328,7 +1328,7 @@ input#combinedsearch[type="text"] {
     padding:0;
     border:none;
     background:none;
-    color:#00994a;
+    color:#e85301;
     font-size:1em;
 }
 
@@ -1355,7 +1355,7 @@ input#combinedsearch[type="text"] {
 }
 
 .qtext {
-    color:#00994a;
+    color:#e85301;
     font-weight:700;
     font-size:1.2em;
 }
@@ -1368,7 +1368,7 @@ input#combinedsearch[type="text"] {
 #page-mod-quiz-edit .questionbankwindow div.header {
     margin:0;
     padding:0;
-    background:#00994a;
+    background:#e85301;
     color:#fff;
     font-size:1em;
 }
@@ -1507,7 +1507,7 @@ table.quizreviewsummary td.cell {
 #categoryquestions thead tr th {
     padding:3px;
     border-bottom:none;
-    background:#00994a;
+    background:#e85301;
     color:#000;
 }
 
@@ -1525,12 +1525,12 @@ table.quizreviewsummary td.cell {
 
 .questionbank input[type=submit] {
     margin:5px;
-    background:#009247;
+    background:#0465ce;
     color:#fff;
 }
 
 .questionbank input[type=submit]:hover {
-    background:#00994a;
+    background:#e85301;
 }
 
 #page-mod-quiz-edit div.question div.content div.questioncontrols {
@@ -1572,7 +1572,7 @@ table.quizreviewsummary td.cell {
 }
 
 #page-footer a {
-    color:#00994a;
+    color:#e85301;
 }
 
 .gradingform_rubric {
@@ -2073,7 +2073,7 @@ div#totaramenu ul li.selected a, div#totaramenu ul li a {
 }
 
 div#totaramenu ul li a:hover {
-    color: #00994a;
+    color: #e85301;
 }
 div#totaramenu ul li a {padding: 8px 20px 7px 30px;}
 
@@ -2089,11 +2089,11 @@ div#totaramenu ul li.menu-calendar > a {background: url([[pix:theme|menu-calenda
 
 #page-footer h2 {font-size: 1.4em; text-transform: uppercase; text-align: left; margin: 0;}
 
-#footerbox1 {background: url([[pix:theme|footerchat]]) center right no-repeat #00c65e;}
+#footerbox1 {background: url([[pix:theme|footerchat]]) center right no-repeat #bd521c;}
 #footerbox1 p {max-width: 70%; text-align: left;}
 #footerbox1 a {background: #3a3a3c url([[pix:theme|footerarrow]]) center right no-repeat; color: #fff; padding: 5px 35px 3px 10px; text-transform: uppercase; font-family: "futura-pt",sans-serif; float: left;}
 
-#footerbox2 {background: url([[pix:theme|footernews]]) center right no-repeat #00c65e;}
+#footerbox2 {background: url([[pix:theme|footernews]]) center right no-repeat #bd521c;}
 #footerbox2 p {max-width: 70%; text-align: left;}
 #footerbox2 a {background: #3a3a3c url([[pix:theme|footerarrow]]) center right no-repeat; color: #fff; padding: 5px 35px 3px 10px; text-transform: uppercase; font-family: "futura-pt",sans-serif; float: left;}
 
@@ -2177,7 +2177,7 @@ div#totaramenu ul li li a {
 
 div#totaramenu ul li li a:hover {
     background: #474747;
-    color: #00cc63;
+    color: #e85301;
     text-decoration: none;
 }
 
@@ -2354,11 +2354,6 @@ body#page-login-index section#region-main div.loginbox div.loginpanel {
     margin-bottom:10px;
     margin-left: auto !important;
     margin-right: auto !important;
-}
-
-div.loginbox {
-    /*background: red !important;*/
-    background: url([[pix:theme|bg]]) bottom left no-repeat;
 }
 
 div.loginbox div.signuppanel .login-image-panel {
