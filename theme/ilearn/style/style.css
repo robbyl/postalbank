@@ -2415,7 +2415,6 @@ body#page-login-index section#region-main div.loginbox div.loginpanel div.subcon
 
 body#page-login-index section#region-main div.loginbox div.loginpanel div.subcontent{
     text-align:left;
-    margin-top: 50px;
     height: auto;
     background:url([[pix:theme|img]]) top left no-repeat #ebebeb;
 }
