@@ -13,41 +13,54 @@ $autocomplete = '';
 ?>
 
 <style type="text/css">
-    
+
     .flexslider {
-        background: white !important;
+        background: #f1f1f1 !important;
+        padding: 16px;
+        box-sizing: border-box;
+        height: 216px !important;
     }
-    
+
     .slides img {
-        height: 130px !important;
+        height: 120px !important;
     }
-    
+
     .course-wrapper {
-        margin-right: 25px;
+        margin-right: 16px;
         float: left;
         width: 220px;
         background: black;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+        border-radius: 2px;
+        box-sizing: border-box;
+        z-index: 2000!important;
+        margin-bottom: 20px;
     }
-    
+
     .course-wrapper .course-header {
-        height: 130px;
+        height: 120px;
         width: 100%;
         background: yellow;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
     }
-    
+
     .course-wrapper .course-desc {
+        overflow: hidden;
         width: 100%;
-        height: 70px;
-        padding: 10px;
+        height: 64px;
+        padding: 8px;
         box-sizing: border-box;
-        background-color: #f0f0f0;
+        background-color: #ffffff;
         text-align: center;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
     }
-    
+
     div.flexslider p {
         color: black !important;
     }
-    
+
     .end-corse {
         margin-right: 0px;
     }
@@ -125,8 +138,8 @@ $autocomplete = '';
         <iframe width="535" height="250" src="https://www.youtube.com/embed/kItl8uZ103M" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div style="width: 100%; background: lightcoral; height: 200px; clear: both;">
-        
+    <div style="width: 100%; height: 216px; clear: both;">
+
         <div class="flexslider" style=" height: 200px;">
             <ul class="slides">
                 <li>
@@ -197,7 +210,7 @@ $autocomplete = '';
                         </div>
                     </div>
                 </li>
-                
+
             </ul>
         </div>
 
