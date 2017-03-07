@@ -45,6 +45,13 @@ echo $OUTPUT->doctype() ?>
     <?php echo $OUTPUT->standard_head_html() ?>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <style type="text/css">
+        .ads, .ads img {
+            width: 600px !important;
+            max-width: 600px !important;
+            height: 80px;
+        }
+    </style>
     <script type="text/javascript" src="//use.typekit.net/jke4zbf.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
@@ -73,18 +80,15 @@ echo $OUTPUT->doctype() ?>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-
+            
+       
              
             
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
-                    <li><?php echo $OUTPUT->page_heading_menu(); ?></li>
-                    <li class="lang"><?php echo $OUTPUT->lang_menu(); ?></li>
-                    <?php if (!isloggedin()) { ?>
-                    <li class="navbar-text"><?php echo $OUTPUT->login_info() ?></li>
-                    <?php } else { ?>
-                    <li class="navbar-text"><?php echo $OUTPUT->login_info() ?><?php echo $OUTPUT->user_picture($USER, array('size'=>80)); ?></li>
-                    <?php } ?>
+                    <li>     <div class="ads">
+                <a href="" ><img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/barner.png' ?>" alt="Ad" style="display: block !important"/></a>
+            </div></li>
                 </ul>
                 
             </div>
@@ -94,8 +98,9 @@ echo $OUTPUT->doctype() ?>
 
     <header id="page-header" class="clearfix">
         <div id="page-navbar">
-            <nav class="breadcrumb-button"><?php echo $OUTPUT->page_heading_button(); ?></nav>
-            <?php echo $OUTPUT->navbar(); ?>
+            <nav class="breadcrumb-button">
+                <div class="news"><marquee direction="left" scrollamount="3" onmouseout="this.scrollAmount = 3" onmouseover="this.scrollAmount = 0">Demo news</marquee></div>
+            </nav>
             <div id="top-search">
                         <form action="<?php echo $CFG->wwwroot ?>/course/search.php" method="get">
                             <input type="text" size="12" name="search" alt="Search Courses" value="<?php echo get_string('searchcourses', 'theme_ilearn'); ?>" onFocus="this.value = this.value=='<?php echo get_string('searchcourses', 'theme_ilearn'); ?>'?'':this.value;" onBlur="this.value = this.value==''?'<?php echo get_string('searchcourses', 'theme_ilearn'); ?>':this.value;" />
