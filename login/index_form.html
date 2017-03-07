@@ -57,7 +57,7 @@ if (!empty($CFG->loginpasswordautocomplete)) {
     .course-wrapper .course-header {
         height: 120px;
         width: 100%;
-        background: yellow;
+        background: #EEEEEE;
         border-top-left-radius: 2px;
         border-top-right-radius: 2px;
     }
@@ -169,7 +169,7 @@ if (!empty($CFG->loginpasswordautocomplete)) {
                         ?>
                         <div class="course-wrapper <?php if ($j == 4) echo ' end-corse'; ?>">
                             <div class="course-header">
-                                <img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/1.png' ?>" />
+                                <img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/' . $course['image']?>" />
                             </div>
                             <div class="course-desc">
                                 <p><?php echo $course['title'] ?></p>
@@ -187,7 +187,7 @@ if (!empty($CFG->loginpasswordautocomplete)) {
                         ?>
                         <div class="course-wrapper <?php if ($j == 8) echo ' end-corse'; ?>">
                             <div class="course-header">
-                                <img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/1.png' ?>" />
+                                <img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/' . $course2['image'] ?>" />
                             </div>
                             <div class="course-desc">
                                 <p><?php echo $course2['title'] ?></p>
