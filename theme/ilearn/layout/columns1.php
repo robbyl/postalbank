@@ -24,6 +24,15 @@
  * @copyright 2013 Synergy Learning
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
+
+require '../../panel/config/database.php';
+
+$result_ads = mysqli_query($link, "SELECT * FROM ads WHERE id = 1") or die(mysqli_error($link));
+$ad = mysqli_fetch_array($result_ads);
+
+$results_news = mysqli_query($link, "SELECT * FROM news WHERE id = 1") or die(mysqli_error($link));
+$news = mysqli_fetch_array($results_news);
+
 $custommenu = $OUTPUT->custom_menu();
 $hascustommenu = !empty($custommenu);
 
@@ -50,7 +59,14 @@ echo $OUTPUT->doctype() ?>
             width: 600px !important;
             max-width: 600px !important;
             height: 80px;
+            overflow: hidden;
         }
+        
+    .news {
+    width: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+}
     </style>
     <script type="text/javascript" src="//use.typekit.net/jke4zbf.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
@@ -80,14 +96,12 @@ echo $OUTPUT->doctype() ?>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            
-       
              
             
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <li>     <div class="ads">
-                <a href="" ><img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/barner.png' ?>" alt="Ad" style="display: block !important"/></a>
+                <a href="" ><img src="<?php echo $CFG->wwwroot . '/theme/' . $PAGE->theme->name . '/pix/' . $ad['image'] ?>" alt="Ad" style="display: block !important"/></a>
             </div></li>
                 </ul>
                 
@@ -98,9 +112,7 @@ echo $OUTPUT->doctype() ?>
 
     <header id="page-header" class="clearfix">
         <div id="page-navbar">
-            <nav class="breadcrumb-button">
-                <div class="news"><marquee direction="left" scrollamount="3" onmouseout="this.scrollAmount = 3" onmouseover="this.scrollAmount = 0">Demo news</marquee></div>
-            </nav>
+                <div class="news"><marquee direction="left" scrollamount="2" onmouseout="this.scrollAmount = 2" onmouseover="this.scrollAmount = 0"><?php echo $news['description'] ?></marquee></div>
             <div id="top-search">
                         <form action="<?php echo $CFG->wwwroot ?>/course/search.php" method="get">
                             <input type="text" size="12" name="search" alt="Search Courses" value="<?php echo get_string('searchcourses', 'theme_ilearn'); ?>" onFocus="this.value = this.value=='<?php echo get_string('searchcourses', 'theme_ilearn'); ?>'?'':this.value;" onBlur="this.value = this.value==''?'<?php echo get_string('searchcourses', 'theme_ilearn'); ?>':this.value;" />
